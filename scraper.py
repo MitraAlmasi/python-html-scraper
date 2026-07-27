@@ -29,7 +29,6 @@ for product in products:
     
     cursor.execute("INSERT INTO products (title, price) VALUES (?, ?)", (title, price))
 
-# ۵. ثبت تغییرات و بستن اتصال
 conn.commit()
 conn.close()
 
